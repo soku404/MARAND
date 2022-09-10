@@ -1,0 +1,136 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.clear{
+    clear:both;
+}
+
+.alignleft{
+    float: left;
+}
+
+.alignright{
+    float:right;
+}
+.aligncenter{
+    align-items: center;
+}
+
+.quality0{
+    background-color: rgba(0, 0, 0, 0.562);
+    padding-top: 250px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 50px;
+    text-shadow: 2.5px 2px #000000;
+    margin: 0;
+}
+.quality{
+    background-color: rgba(0, 0, 0, 0.562 );
+    padding-bottom: 250px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    margin: 0;
+}
+
+body{
+
+    background: rgb(0, 0, 0);
+    margin: 0 0 0 0;
+
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    
+    height: 110px;
+    text-align:center;
+    color:rgb(194, 149, 163);
+    font-size: 100px;
+    font-family: 'Rozha One', serif;
+    border: 0px;  
+    margin: 0px 0px 0px 0px;
+    vertical-align: bottom;
+    letter-spacing: 0.1em
+
+}
+
+.objetives{
+    display: inline-block;
+    font-size: 60px;
+}
+h2{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color:rgb(194, 149, 163);
+    font-family: 'Josefin Slab', serif;
+    margin: 0px 0px 20px 0px;
+    bottom:50px;
+    letter-spacing: 0.9em
+}
+
+.products0{
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 100px 20px 80px;
+    margin: 0px 0px 0px 0px ;
+    letter-spacing: 0.3em
+}
+
+.products{
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-left: 5px solid rgb(194, 149, 163);
+    padding: 20px 90px 20px 60px;
+    margin: 0px 0px 0px 0px ;
+    letter-spacing: 0.3em
+}
+#container{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+
+}
+
+#header{
+    font-family: 'Eczar', serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-bottom: 1px double rgb(194, 149, 163);
+    border-top: 1px double rgb(194, 149, 163);
+ 
+}
+
+#main{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    height: auto;
+    width: auto;
+    background-image:url(/images/back2.jpg);
+    background-size: 1900px;
+ 
+}
+
+#sidebar{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+ 
+ 
+}
+
+#footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+    width: auto;
+
+}
