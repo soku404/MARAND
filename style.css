@@ -81,6 +81,7 @@ h2{
     letter-spacing: 0.3em
 }
 
+
 .products{
     font-size: 20px;
     display: inline-block;
@@ -107,12 +108,12 @@ h2{
 }
 
 #main{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
     padding: 0px;
     height: auto;
     width: auto;
-    background-image:url(/images/back2.jpg);
+    background-image:url('/images/back2.jpg');
     background-size: 1900px;
  
 }
